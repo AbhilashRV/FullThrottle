@@ -32,7 +32,7 @@ class Login extends Component {
    const errors = this.validate();
    this.setState({errors :errors||{}});
   
-   if(this.state.account.username==='admin' && this.state.account.password==='admin')
+   if(this.state.account.username==='administrator' && this.state.account.password==='administrator')
    {
       this.props.history.push("/")
    }
