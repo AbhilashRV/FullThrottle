@@ -21,7 +21,7 @@
   },
   "scripts": {
    
-    "start":"start app.js",
+    "start":"start index.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
